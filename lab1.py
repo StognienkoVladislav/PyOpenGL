@@ -166,7 +166,7 @@ def specialKeyboardFun(button, x, y):
 
     displayFun()
 
-def keyboardFun(button):
+def keyboardFun(button, x, y):
     if button == b'-':
         glScale(1, 0.5, 0)
 
