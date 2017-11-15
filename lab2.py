@@ -110,9 +110,11 @@ def list_of_commands():
 
     glPushMatrix()
     glColor3ub(255, 0, 0)
-    glutSolidSphere(5, 50, 10)
+    #glutSolidSphere(5, 50, 10)
+    glutSolidTorus(2, 3, 20, 20)
     glTranslate(10, 0, 0)
-    glutWireSphere(5, 50, 10)
+    #glutWireSphere(5, 50, 10)
+    glutWireTorus(2, 3, 20, 20)
     glPopMatrix()
 
     glPushMatrix()
